@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 const double QUARTER = 0.25;
 const double DIMES   = 0.1;
 const double NICKELS = 0.05;
@@ -29,4 +28,4 @@ int main(){
     cout<<"The total is "<<dollarAmount<<" dollars and "<<centAmount<<" cents."<<endl;
 
     return 0;
-}
+}   
