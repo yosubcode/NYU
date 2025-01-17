@@ -22,8 +22,8 @@ int main(){
     cin>>pennies;
 
     totalAmount  = quarters*QUARTER + dimes*DIMES + nickels*NICKELS + pennies*PENNIES;
-    dollarAmount = int(totalAmount*100) / 100 ;
-    centAmount   = int(totalAmount*100) % 100 ;
+    dollarAmount = int(totalAmount*100) / 100;
+    centAmount   = int(totalAmount*100) % 100;
 
     cout<<"The total is "<<dollarAmount<<" dollars and "<<centAmount<<" cents."<<endl;
 
