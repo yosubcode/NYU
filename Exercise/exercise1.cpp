@@ -22,7 +22,5 @@ int main(){
 
     cout<<"The total is "<<totalDollars<<" dollars and "<<totalCents<<" cents";
 
-
-
     return 0;
 }

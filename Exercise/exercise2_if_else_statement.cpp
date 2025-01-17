@@ -15,7 +15,7 @@ int main(){
     cin>>finalExamMarks;
 
     bonusMarks = 0;
-    if (assignmentMarks>=60)
+    if (assignmentMarks>=60) 
         bonusMarks += 5;
     if (midtermExamMarks==100 || finalExamMarks==100)
         bonusMarks += 3;
@@ -42,10 +42,6 @@ int main(){
     cout<<"=========================================\n";
     cout<<"Your Final score is "<<finalMarks<<endl;
     cout<<"Your Final Grade is "<<grade<<endl;
-
-
-
-
 
     // if (marks >= 90) {
     //     grade = "Grade A";
