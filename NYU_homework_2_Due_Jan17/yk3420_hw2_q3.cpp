@@ -5,7 +5,6 @@ int HOURS_PER_DAY    = 24;
 int MINUTES_PER_HOUR = 60;
 
 int main(){
-
     int daysJohnWorked, hoursJohnWorked, minutesJohnWorked;
     int daysBillWorked, hoursBillWorked, minutesBillWorked;
     int totalJohnWorked, totalBillWorked, totalBothWorked;
@@ -18,13 +17,15 @@ int main(){
     cout<<"Please enter the number of minutes John has worked: ";
     cin>>minutesJohnWorked;
 
-    cout<<"\nPlease enter the number of days Bill has worked: ";
+    cout<<"\n";
+    cout<<"Please enter the number of days Bill has worked: ";
     cin >>daysBillWorked;
     cout<<"Please enter the number of hours Bill has worked: ";
     cin >>hoursBillWorked;
     cout<<"Please enter the number of minutes Bill has worked: ";
     cin >>minutesBillWorked;
-
+    cout<<"\n";
+    
     // Convert totalDays and totalHours to minutes and calculate how much minutes total each worked.
     totalJohnWorked = (daysJohnWorked*HOURS_PER_DAY*MINUTES_PER_HOUR) + (hoursJohnWorked*MINUTES_PER_HOUR) + minutesJohnWorked;
     totalBillWorked = (daysBillWorked*HOURS_PER_DAY*MINUTES_PER_HOUR) + (hoursBillWorked*MINUTES_PER_HOUR) + minutesBillWorked;
@@ -45,7 +46,7 @@ int main(){
     totalWorkedInMinutes = remainingWorked;
 
 
-    cout<<"\nThe total time both of them worked together is: ";
+    cout<<"The total time both of them worked together is: ";
     cout<<totalWorkedInDays<<" days, "<<totalWorkedInHours<<" hours and "<<totalWorkedInMinutes<<" minutes."<<endl;
 
     return 0;

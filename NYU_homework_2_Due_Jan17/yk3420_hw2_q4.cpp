@@ -2,7 +2,6 @@
 using namespace std;
 
 int main (){
-
     int input1, input2;
 
     cout<<"Please enter two positive integers, separated by a space:"<<endl;

@@ -7,7 +7,6 @@ const int NICKELS = 5;
 const int PENNIES = 1;
 
 int main(){
-
     int dollars, cents;
     int totalAmountInCents, remainingAmountInCents;
     int totalQuarters, totalDimes, totalNickels, totalPennies;
