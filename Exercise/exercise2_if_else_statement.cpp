@@ -16,7 +16,7 @@ int main(){
 
     bonusMarks = 0;
     if (assignmentMarks>=60)
-        bonusMarks += 5; 
+        bonusMarks += 5;
     if (midtermExamMarks==100 || finalExamMarks==100)
         bonusMarks += 3;
 
